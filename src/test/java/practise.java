@@ -30,7 +30,7 @@ public class practise {
 
         WebElement firstName= driver.findElement(By.xpath("//input[@id='firstName']"));
         firstName.click();
-        firstName.sendKeys("Bilgen");
+        firstName.sendKeys("Test");
 
         WebElement lastName= driver.findElement(By.id("lastName"));
         lastName.click();
@@ -38,7 +38,7 @@ public class practise {
 
         WebElement eMail=driver.findElement(By.cssSelector(".mr-sm-2[placeholder=\"name@example.com\"]"));
         eMail.click();
-        eMail.sendKeys("bilgentest@test.com");
+        eMail.sendKeys("testtest@test.com");
 
         WebElement age=driver.findElement(By.cssSelector(".mr-sm-2[placeholder=\"Age\"]"));
         age.click();
