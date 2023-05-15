@@ -1,12 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="test suite">
-    <test name="Kac numarali test" >
+    <test name="Grup Bulma" >
+        <groups>
+           <run>
+<exclude name="Group B"/>
+            </run>
+        </groups>
         <classes>
-            <class name="TestNG">
-                <methods>
-                    <exclude name="test4"/>
-                </methods>
-            </class>
+            <class name="TestNG"/>
         </classes>
     </test>   
 </suite>
