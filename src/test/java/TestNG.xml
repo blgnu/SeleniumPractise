@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="test suite">
-    <test name="Grup Bulma" >
+    <test name="Oncelik sirasina gore kosum" >
         <groups>
            <run>
 <exclude name="Group B"/>
